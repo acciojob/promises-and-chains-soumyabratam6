@@ -6,7 +6,7 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
 
     // Validate inputs are not empty
     if (ageInput === '' || nameInput === '') {
-        alert('Please fill in both fields.');
+        alert('Please enter valid details');
         return;
     }
 
